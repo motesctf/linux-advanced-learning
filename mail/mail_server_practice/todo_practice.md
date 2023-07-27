@@ -1,7 +1,7 @@
 Для создания виртуальных машин выбрал Yandex Cloud 
 Сделал 3 машины на убунте 22, для каждой машины сгенерировал ssh ключи
 
-### Развертывание PostgreSQL 
+### Деплой PostgreSQL 
 
 1. Подключился по SSH к машине db01
 2. `sudo apt update && sudo apt upgrade`
@@ -48,7 +48,7 @@ Jul 26 12:55:43 db01 systemd[1]: Finished PostgreSQL RDBMS.
 Все остальное настрою после развертывания приложения
 
 
-### Развертывание приложения 
+### Деплой приложения 
 
 Нужно развернуть https://gitfront.io/r/deusops/RcVABw5Efwit/Email-Django-app/
 Email-Django-App
